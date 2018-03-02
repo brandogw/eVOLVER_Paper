@@ -118,9 +118,6 @@ def update_Graphs():
 #### Send alert if UDP isnt reading
 def send_alert():
     server = smtplib.SMTP( "smtp.gmail.com", 587 )
-    server.starttls()
-    server.login( 'khalillabevolver@gmail.com', 'yeastmode' )
-    server.sendmail( 'eVOLVER', '5104492283@mms.att.net', 'UDP Timeout!!')
     
 
 #### Custom Script
